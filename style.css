@@ -5,6 +5,8 @@ a{
 
 a[href*="http"]{
   font-weight: bold;
-  font-size: 20px;
+}
 
+a[href*="http"]:before{
+  content: "→ "; 
 }
